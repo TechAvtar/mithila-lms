@@ -25,7 +25,7 @@ sed -i '/redis/d' ./Procfile
 sed -i '/watch/d' ./Procfile
 
 bench get-app payments
-bench get-app lms
+bench get-app https://github.com/TechAvtar/mithila-lms.git
 
 bench new-site lms.localhost \
 --force \
