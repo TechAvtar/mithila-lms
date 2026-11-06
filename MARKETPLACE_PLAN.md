@@ -1,6 +1,6 @@
 # Mithila LMS: multi-seller marketplace plan
 
-**Status:** Phase 0 built and checked locally, except for putting the local fixes into git. The app holds only the hook checks; no marketplace features exist yet.
+**Status:** Phase 0 is complete. The app holds only the hook checks; no marketplace features exist yet.
 **Model:** one site and one shared database. Sellers publish courses and batches, the platform collects the money, takes a commission and pays sellers.
 
 ---
