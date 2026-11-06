@@ -35,6 +35,7 @@ bench new-site lms.localhost \
 
 bench --site lms.localhost install-app payments
 bench --site lms.localhost install-app lms
+bash /workspace/install_marketplace.sh lms.localhost
 bench --site lms.localhost set-config developer_mode 1
 bench --site lms.localhost clear-cache
 bench use lms.localhost
